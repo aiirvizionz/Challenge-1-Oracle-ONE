@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="https://img.icons8.com/external-soft-fill-juicy-fish/60/external-cryptography-cryptography-soft-fill-soft-fill-juicy-fish-9.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="img/aluralogo.png" alt="Logo Alura" class="logo">
+    </header>
+    <main>
+        <section class="section1">
+            <textarea class="text-area" cols="30" rows="5" placeholder="Ingrese texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">🛈Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="div-mensaje">
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                <div>
+                    <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Challenge creado por: David Lopez - https://github.com/aiirvizionz</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
